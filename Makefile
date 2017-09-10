@@ -6,6 +6,7 @@ all:compile
 
 compile:
 	$(COMPILER) ./src/counter.v -o ./sim/simple_sim
+
 simple_sim:
 	$(COMPILER) ./src/counter.v ./tb/tb_simple_counter_sim.v -o ./sim/simple_sim
 	./sim/simple_sim

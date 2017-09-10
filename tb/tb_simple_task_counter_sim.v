@@ -26,7 +26,6 @@ initial begin
   $finish;
 end
 
-
 task start;
   clock = 1;
 endtask
