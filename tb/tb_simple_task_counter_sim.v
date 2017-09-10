@@ -9,7 +9,7 @@ Counter7SD C7SD(clock,reset,pause,reverse,data);
 
 initial
 begin
-  $dumpfile("out.vcd");
+  $dumpfile("sim/waveform/out.vcd");
   $dumpvars(0,simple_sim);
   $display("clock\treset\tpause\treverse\tdata");
 end
@@ -20,15 +20,25 @@ always @ ( clock ) begin
 end
 
 initial begin
+  //clock = 1;
+  start;
+  simple_flow;
+  $finish;
+end
+
+
+task start;
   clock = 1;
+endtask
+
+task simple_flow; begin
   @(posedge clock)
     reset = 0;
   repeat(12)@(posedge clock)
     reset = 1;
-//  pause = 1;
-//  reverse = 1;
   @(posedge clock)
     #10;
-  $finish;
 end
+endtask
+
 endmodule //

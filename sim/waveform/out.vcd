@@ -1,0 +1,141 @@
+$date
+	Sun Sep 10 15:50:42 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module simple_sim $end
+$var wire 7 ! data [6:0] $end
+$var reg 1 " clock $end
+$var reg 1 # pause $end
+$var reg 1 $ reset $end
+$var reg 1 % reverse $end
+$scope module C7SD $end
+$var wire 1 " clock $end
+$var wire 1 # pause $end
+$var wire 1 $ reset $end
+$var wire 1 % reverse $end
+$var reg 7 & data [6:0] $end
+$var reg 7 ' temp_data [6:0] $end
+$upscope $end
+$scope task simple_flow $end
+$upscope $end
+$scope task start $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+bx &
+x%
+x$
+x#
+1"
+bx !
+$end
+#5
+0"
+#10
+0$
+1"
+#15
+0"
+#20
+b110111 '
+1$
+1"
+#25
+0"
+#30
+b1111011 '
+b110111 !
+b110111 &
+1"
+#35
+0"
+#40
+b1111111 '
+b1111011 !
+b1111011 &
+1"
+#45
+0"
+#50
+b1110000 '
+b1111111 !
+b1111111 &
+1"
+#55
+0"
+#60
+b1011011 '
+b1110000 !
+b1110000 &
+1"
+#65
+0"
+#70
+b110011 '
+b1011011 !
+b1011011 &
+1"
+#75
+0"
+#80
+b1101101 '
+b110011 !
+b110011 &
+1"
+#85
+0"
+#90
+b110000 '
+b1101101 !
+b1101101 &
+1"
+#95
+0"
+#100
+b1111110 '
+b110000 !
+b110000 &
+1"
+#105
+0"
+#110
+b1111011 '
+b1111110 !
+b1111110 &
+1"
+#115
+0"
+#120
+b1111111 '
+b1111011 !
+b1111011 &
+1"
+#125
+0"
+#130
+b1110000 '
+b1111111 !
+b1111111 &
+1"
+#135
+0"
+#140
+b1011011 '
+b1110000 !
+b1110000 &
+1"
+#145
+0"
+#150
+b110011 '
+b1011011 !
+b1011011 &
+1"
