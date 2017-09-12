@@ -64,7 +64,7 @@ always @ ( posedge clock ) begin
               0: temp_data <= temp_data;
         default: case (temp_data)
                   HOLD:   case (reverse)
-                                  0: temp_data <= ONE;
+                                  0: temp_data <= ZERO;
                             default: temp_data <= NINE;
                           endcase
                   ZERO:   case (reverse)

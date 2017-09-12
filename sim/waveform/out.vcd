@@ -1,5 +1,5 @@
 $date
-	Sun Sep 10 15:50:42 2017
+	Tue Sep 12 14:01:18 2017
 $end
 $version
 	Icarus Verilog
@@ -31,7 +31,7 @@ $enddefinitions $end
 $dumpvars
 bx '
 bx &
-x%
+1%
 x$
 x#
 1"
