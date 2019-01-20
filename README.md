@@ -7,7 +7,7 @@ The __Counter7SD__ is a hardware description of syncronouse counter.
 # Pins Description
 | Name | Direction |Description|
 |---|---|---|
-| cloack | input | |
+| clock | input | |
 |reset   | input  | synchrone low active: Signal switching counter to initial state |
 |pause | input | synchrone low active: Signal switching counter to 'P' state, but after deactivating counter continues to work from previous state. |
 |reverse| input|synchrone low active: Signal changes counter direction |
